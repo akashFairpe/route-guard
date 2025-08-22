@@ -2,39 +2,55 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* Agent Management Design System - Professional monitoring dashboard theme */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
-
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
-
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
-
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
-
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
-
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
-
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
-
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    /* Base colors - Clean professional palette */
+    --background: 248 250 252;
+    --foreground: 226 232 240;
+    
+    /* Surface colors */
+    --card: 255 255 255;
+    --card-foreground: 51 65 85;
+    
+    --popover: 255 255 255;
+    --popover-foreground: 51 65 85;
+    
+    /* Primary - Professional blue */
+    --primary: 220 70% 50%;
+    --primary-foreground: 255 255 255;
+    --primary-hover: 220 70% 45%;
+    
+    /* Secondary - Subtle gray */
+    --secondary: 226 232 240;
+    --secondary-foreground: 51 65 85;
+    
+    /* Muted backgrounds */
+    --muted: 241 245 249;
+    --muted-foreground: 100 116 139;
+    
+    /* Accent - Light blue */
+    --accent: 219 78% 95%;
+    --accent-foreground: 220 70% 50%;
+    
+    /* Status colors */
+    --success: 142 76% 36%;
+    --success-foreground: 255 255 255;
+    --success-light: 142 76% 95%;
+    
+    --warning: 48 96% 53%;
+    --warning-foreground: 255 255 255;
+    --warning-light: 48 96% 95%;
+    
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 255 255 255;
+    --destructive-light: 0 72% 95%;
+    
+    /* UI elements */
+    --border: 226 232 240;
+    --input: 255 255 255;
+    --ring: 220 70% 50%;
 
     --radius: 0.5rem;
 
